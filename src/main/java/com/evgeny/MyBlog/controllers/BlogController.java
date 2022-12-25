@@ -80,4 +80,9 @@ public class BlogController {
         postRepository.delete(post);
         return "redirect:/blog";
     }
+
+    @GetMapping("/blog/sign")
+    public String blogAdd(Model model){
+        return "";
+    }
 }
